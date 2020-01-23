@@ -7,12 +7,6 @@
 	body	{
 	background-image: radial-gradient(circle at 50% -120%, #005eff, lightgreen)
 	}
-	.bg-image {
-		background-image: radial-gradient(circle at 50% -120%, #005eff, lightgreen);
-		filter: blur(8px);
-		-webkit-filter: blur(8px);
-		height: 100%;
-	}
 	.modal:hover {
 		box-shadow: 0 30px 30px 0 rgba(0,0,0,0.2);
 	}
@@ -82,9 +76,6 @@
 		border: 1px solid #34c759;
 		background-image: radial-gradient(circle at 30% -10%, white, lightgreen);
 	}
-    .body {
-		display:table-cell; vertical-align:middle; text-align:center;
-	}
 	.signup {
 		width: 50%;
 		color: white;
@@ -138,39 +129,23 @@
 	</style>
 </head>
 <body>
-	<div class="bg-image"></div>
 	<div class="modal">
 		<div class="body">
-			<div class="content">
-<br>
-				<center><img src="./img/stjudelogo.png" alt="st. jude college" style="width:45%">
-<br>
-<br>
-<br>			<form action="#">
-					<div class="container">
+			<div class="content"><br>
+				<center><img src="./img/stjudelogo.png" alt="st. jude college" style="width:45%"><br><br><br>			<form action="#">
+				<div class="container">
+					<form action="#">		
 						<label class="userpass">
-							<input type="text" class="text" placeholder="  Username" required>
-<br>
+							<input type="text" class="text" placeholder="  Username" required><br>
 							<input type="password" placeholder="  Password" required>
-						</label>
-<br>
-<br>
+						</label><br><br>
 						<label class="keep">
 							<input type="radio" value="1">Keep me sign in - <a 	href="#" class="forgot">Forgot password?</a>
-						</label>
-<br>
-<br>
+						</label><br><br>
 						<input type="submit" class="login" value="Login">
-				</form>
-<br>
-<br>
-<hr id="line">
-					<p style="text-align:center;color:#457ab1;font-family: arial;
-		font-size:12px;">- Doesn't have an account?<p>
-					<a href="./registerform.html"><input type="button" class="signup" value="Sign up"></a>				
-<br>
-<br>
-					
+					</form><br><br><hr id="line">
+					<p style="text-align:center;color:#457ab1;font-family: arial; font-size:12px;">- Doesn't have an account?<p>
+					<a href="./registerform.html"><input type="button" class="signup" value="Sign up"></a><br><br>
 				</div>
 			</div>
 		</div>
